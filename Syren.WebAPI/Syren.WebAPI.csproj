@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Syren.QuickCartBL\Syren.QuickCartBL.csproj" />
+    <ProjectReference Include="..\Syren.QuickCartDAL\Syren.QuickCartDAL.csproj" />
+  </ItemGroup>
+
+</Project>
